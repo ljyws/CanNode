@@ -1,0 +1,14 @@
+Change Component Designator: OldDesignator=C? NewDesignator=C14
+Added Component: Designator=XT1(XT60 PW-M)
+Added Component: Designator=XT2(XT60 PW-F)
+Added Component: Designator=XT3(XT30 PW-F)
+Added Pin To Net: NetName=DCBUS Pin=XT1-1
+Added Pin To Net: NetName=GND Pin=XT1-2
+Added Pin To Net: NetName=DCBUS Pin=XT2-1
+Added Pin To Net: NetName=GND Pin=XT2-2
+Added Pin To Net: NetName=DCBUS Pin=XT3-1
+Added Pin To Net: NetName=GND Pin=XT3-2
+Change Net Name : Old Net Name=NetC?_1 New Net Name=NetC14_1
+Added Member To Class: ClassName=main Member=Component XT1 XT60 PW-M
+Added Member To Class: ClassName=main Member=Component XT2 XT60 PW-F
+Added Member To Class: ClassName=main Member=Component XT3 XT30 PW-F

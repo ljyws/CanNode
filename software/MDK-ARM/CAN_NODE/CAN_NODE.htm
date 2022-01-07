@@ -3,7 +3,7 @@
 <title>Static Call Graph - [CAN_NODE\CAN_NODE.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image CAN_NODE\CAN_NODE.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Mon Jan 03 17:48:49 2022
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Fri Jan 07 17:46:18 2022
 <BR><P>
 <H3>Maximum Stack Usage =        204 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -683,7 +683,7 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_CAN_IRQHandler
 </UL>
 
-<P><STRONG><a name="[82]"></a>HAL_CAN_RxFifo0MsgPendingCallback</STRONG> (Thumb, 686 bytes, Stack size 64 bytes, stm32f4xx_it.o(i.HAL_CAN_RxFifo0MsgPendingCallback))
+<P><STRONG><a name="[82]"></a>HAL_CAN_RxFifo0MsgPendingCallback</STRONG> (Thumb, 684 bytes, Stack size 64 bytes, stm32f4xx_it.o(i.HAL_CAN_RxFifo0MsgPendingCallback))
 <BR><BR>[Stack]<UL><LI>Max Depth = 164<LI>Call Chain = HAL_CAN_RxFifo0MsgPendingCallback &rArr; Odrive_set_control_mode &rArr; Can_send_odrive &rArr; HAL_CAN_AddTxMessage
 </UL>
 <BR>[Calls]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetMotor
@@ -819,8 +819,8 @@ Global Symbols
 <P><STRONG><a name="[a0]"></a>HAL_Init</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, stm32f4xx_hal.o(i.HAL_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = HAL_Init &rArr; HAL_InitTick &rArr; HAL_NVIC_SetPriority
 </UL>
-<BR>[Calls]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_MspInit
-<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<BR>[Calls]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_MspInit
 <LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriorityGrouping
 </UL>
 <BR>[Called By]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
@@ -1216,7 +1216,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DJIMotorCtrl
 </UL>
 
-<P><STRONG><a name="[99]"></a>SetMotor</STRONG> (Thumb, 186 bytes, Stack size 24 bytes, vesc_comm.o(i.SetMotor))
+<P><STRONG><a name="[99]"></a>SetMotor</STRONG> (Thumb, 184 bytes, Stack size 24 bytes, vesc_comm.o(i.SetMotor))
 <BR><BR>[Stack]<UL><LI>Max Depth = 92<LI>Call Chain = SetMotor &rArr; can_transmit_eid &rArr; HAL_CAN_AddTxMessage
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;can_transmit_eid

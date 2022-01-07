@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=+5 Pin=J2-1
+Removed Pin From Net: NetName=GND Pin=J2-2
+Removed Pin From Net: NetName=CAN2_H Pin=J2-3
+Removed Pin From Net: NetName=CAN2_L Pin=J2-4
+Removed Pin From Net: NetName=GND Pin=USB1-A1
+Removed Pin From Net: NetName=GND Pin=USB1-A12
+Removed Pin From Net: NetName=GND Pin=USB1-B1
+Removed Pin From Net: NetName=GND Pin=USB1-B12
+Removed Member From Class: ClassName=main Member=J2
+Change Component Footprint: Designator=USB1 Old Footprint=USB-C-SMD_KH-TYPE-C-16P New Footprint=TYPE-C-SMD_TYPE-C-31-D-04
+Change Component Comment : Designator=USB1 Old Comment=Type-c-16p New Comment=TYPE-C-31-D-04
+Change component parameters: Designator = "USB1" ("USB1"); Footprint = "USB-C-SMD_KH-TYPE-C-16P"; UniqueID = "\MWQOHECK" ("\MWQOHECK")
+Change component parameters (AddParameter): Name = "BOM_JLCPCB Part Class"; Value = "Extended Part"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "BOM_Manufacturer"; Value = "º«¹úº«ÈÙ"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "BOM_Manufacturer Part"; Value = "TYPE-C-31-D-04"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "BOM_Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "BOM_Supplier Part"; Value = "C840347"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contributor"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "spicePre"; Value = "U"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "spiceSymbolName"; Value = "TYPE-C-31-D-04"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=CAN2_L Pin=USB1-A5
+Added Pin To Net: NetName=CAN2_H Pin=USB1-B5
+Change Net Name : Old Net Name=CAN1_H New Net Name=C1_N
+Change Net Name : Old Net Name=CAN1_L New Net Name=C1_P
+Change Net Name : Old Net Name=CAN2_H New Net Name=C2_P
+Change Net Name : Old Net Name=CAN2_L New Net Name=C2_N
+Added Differential Pair: Name=C1
+Added Differential Pair: Name=C2

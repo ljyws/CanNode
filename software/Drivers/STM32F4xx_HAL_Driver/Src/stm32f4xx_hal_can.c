@@ -1419,7 +1419,7 @@ uint32_t HAL_CAN_GetTxMailboxesFreeLevel(CAN_HandleTypeDef *hcan)
     }
 
     /* Check Tx Mailbox 1 status */
-    if ((hcan->Instance->TSR & CAN_TSR_TME1) != 0U)
+     if ((hcan->Instance->TSR & CAN_TSR_TME1) != 0U)
     {
       freelevel++;
     }

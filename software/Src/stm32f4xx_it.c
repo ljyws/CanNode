@@ -424,7 +424,7 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
 
 				if(rx_header.StdId == 0x501)
 				{
-					ljy4++;
+
 					switch(Msg1.data16[0])
 					{
 						case 0x0001:  //ËÙ¶È¿ØÖÆ
@@ -450,8 +450,9 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
 						case 0x0001:
 							break;
 						case 0x0002:
+												ljy4++;
 							SetMotor(i,RPM,(float)Msg1.data32[1]);
-							break;
+							break;	                 
 						case 0x0003:
 							break;
 						default :break;

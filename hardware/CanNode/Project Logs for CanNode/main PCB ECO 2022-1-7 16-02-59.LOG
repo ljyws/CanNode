@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=CAN1_H Pin=J4-1
+Removed Pin From Net: NetName=CAN1_L Pin=J4-2
+Removed Pin From Net: NetName=CAN1_H Pin=J6-1
+Removed Pin From Net: NetName=CAN1_L Pin=J6-2
+Removed Member From Class: ClassName=main Member=J4
+Removed Member From Class: ClassName=main Member=J6

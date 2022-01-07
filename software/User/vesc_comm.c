@@ -159,14 +159,15 @@ static void CAN_CMD_VESC_CURRENT(uint8_t id,int32_t current)
 * @param  id: VESC_CAN_ID
 * @param  RPM: 电机电气转速，电气转速/极对数为机械转速
 */
-	float jjjj=0;
+	uint32_t jjjj=0;
 static void CAN_CMD_VESC_RPM(uint8_t id, int32_t RPM)
 {
-	jjjj = RPM;
+
 	int32_t send_index = 0;
 	uint8_t buffer[4];
 	buffer_append_int32(buffer, RPM, &send_index);
 	can_transmit_eid(id |((uint32_t)CAN_PACKET_SET_RPM << 8), buffer, send_index,&hcan1);
+	jjjj = id |((uint32_t)CAN_PACKET_SET_RPM << 8);
 }
 
 /**
